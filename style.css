@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.splash {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0);
+  transition: all ease-in-out 600ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  transition: 0.5s;
+  display: none;
+}
+.splash-header {
+  height: 90%;
+  color: white;
+
+  font-size: 30px;
+  transform: translate(-10%, 28%);
+}
+.logo {
+  margin-left: 20px;
+}
+.logos {
+  margin-left: 17px;
+}
+
+.btn {
+  /*   border : none; */
+  /*   padding : 10px; */
+  /*   position : fixed; */
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .logos {
+    margin-left: 17px;
+    margin-top: 10px;
+  }
+  .kk {
+    margin: 20px -30px;
+  }
+  .kks {
+    margin: 20px -30px;
+    font-weight: bold;
+    font-size: large;
+  }
+  h2 {
+    margin: 20px -30px;
+  }
+  .toggle-button {
+    background: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 9px;
+    transition: color 0.3s;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: -110px;
+    font-family: "Shantell Sans", cursive;
+    position: relative;
+    left: -20px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#c81913, #b64613, #ab6012);
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(90px);
+  overflow: hidden;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 9px;
+  transition: color 0.3s;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 130px;
+  font-family: "Shantell Sans", cursive;
+}
+
+
+
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 3px solid black;
+  border-radius: 50px;
+  background-color: transparent;
+}
+input::placeholder {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+input::active{
+  border: none;
+}
+
+button {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  color: orange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Shantell Sans", cursive;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 50px;
+}
+
+.kk {
+  padding: 20px 110px;
+}
+.kks {
+  padding: 20px 110px;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #ffffff;
+}
+h2 {
+  padding: 20px;
+  position: relative;
+  left: 120px;
+  color: #ffffff;
+}
+.condition {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-size: smaller;
+}
