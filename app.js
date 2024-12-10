@@ -11,5 +11,3 @@ document.getElementById('signupBtn').addEventListener('click', function() {
     this.classList.add('active');
     document.getElementById('loginBtn').classList.remove('active');
 });
-// Add form submission handling here if needed
-// Add form submiss
