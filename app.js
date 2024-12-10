@@ -11,3 +11,9 @@ document.getElementById('signupBtn').addEventListener('click', function() {
     this.classList.add('active');
     document.getElementById('loginBtn').classList.remove('active');
 });
+document.getElementById('kenny').addEventListener('click', function() {
+    document.getElementById('signupForm').classList.add('active');
+    document.getElementById('loginForm').classList.remove('active');
+    this.classList.add('active');
+    document.getElementById('kenny').classList.remove('active');
+});

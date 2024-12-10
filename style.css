@@ -173,6 +173,16 @@ button {
   border-radius: 50px;
 }
 
+button a {
+  text-decoration: none;
+  
+  
+  background-color: white;
+  color: orange;
+ 
+  font-family: "Shantell Sans", cursive;
+
+}
 .kk {
   padding: 20px 110px;
 }
