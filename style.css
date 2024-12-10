@@ -49,7 +49,6 @@
   }
   .kk {
     margin: 20px -30px;
-  
   }
   .kks {
     margin: 20px -30px;
@@ -60,7 +59,6 @@
     margin: 20px -30px;
   }
   .toggle-button {
-   
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -79,8 +77,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-
 }
 
 body {
@@ -114,7 +110,6 @@ body {
   margin-bottom: 20px;
 }
 
-
 .toggle-button {
   background: #ffffff;
   border: none;
@@ -127,7 +122,6 @@ body {
   margin-left: 130px;
   font-family: "Shantell Sans", cursive;
 }
-
 
 .form {
   display: none;
@@ -151,7 +145,7 @@ input::placeholder {
   font-size: large;
   font-weight: bolder;
 }
-input::active{
+input::active {
   border: none;
 }
 
@@ -175,13 +169,11 @@ button {
 
 button a {
   text-decoration: none;
-  
-  
+
   background-color: white;
   color: orange;
- 
-  font-family: "Shantell Sans", cursive;
 
+  font-family: "Shantell Sans", cursive;
 }
 .kk {
   padding: 20px 110px;
@@ -204,21 +196,21 @@ h2 {
   left: 30px;
   font-size: smaller;
 }
-.logo{
+.logo {
   position: relative;
   display: inline-block;
   bottom: -50px;
   opacity: 0;
-  transition:  ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
-.logo.active{
+.logo.active {
   opacity: 1;
-  transition:  ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
-.logo.fade{
+.logo.fade {
   opacity: 0;
-  transition:  ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
-.kata{
- margin-left: 30px;
+.kata {
+  margin-left: 30px;
 }
