@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+section {
+    background-color: #8B0000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header img {
+    width: 6.5rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 20px 10px;
+    position: relative;
+
+}
+
+.search-bar input::placeholder {
+    margin-top: 50px;
+}
+
+.search-bar input {
+    margin-left: 3rem;
+    font-size: 3rem;
+    width: 90%;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.menu-icon {
+    margin-right: 3rem;
+    font-size: 40px;
+    color: #FFA500;
+}
+
+.nav {
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0rem;
+}
+
+.logo span {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Shantell Sans", cursive;
+    margin-left: 5px;
+    font-weight: bolder;
+}
