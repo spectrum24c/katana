@@ -89,7 +89,7 @@ body {
 }
 
 .section-p1 {
-  padding: 40px 40px;
+  padding: 40px 60px;
 }
 
 .what {
@@ -99,10 +99,37 @@ body {
   font-weight: bold;
 }
 
-.quest span{
-          font-family: "Sen", serif;
-          color: white;
-          font-size: 3rem;
-          font-weight: bold;  
-          margin-top: 10px;      
+.quest span {
+  font-family: "Sen", serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.con1 {
+  background-image: url("img/brooke-lark-qdyBKWSzpSI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.con2 {
+  background-image: url("img/eaters-collective-12eHC6FxPyg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.con3 {
+  background-image: url("img/brooke-lark-lcZ9NxhOSlo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
 }
