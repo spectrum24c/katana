@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
 body {
-  height: 200vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(0deg, #ab6012, #c81913 80%) no-repeat;
+  background: linear-gradient(0deg, #c81913, #ab6012, #b64613 80%);
 }
 
 .section {
@@ -151,11 +150,49 @@ body {
   grid-template-columns: auto auto auto auto;
 }
 
-.cont h1{
+.cont h1 {
   color: white;
   font-size: 5rem;
   font-weight: bolder;
   font-family: "Sen", serif;
   justify-content: center;
   text-align: center;
+}
+
+.cont1 h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bolder;
+  font-family: "Sen", serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-p12 {
+  padding: -50px 60px;
+}
+
+.spag1 {
+  background-image: url("img/paish-zaini--9UJTnXpUXM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 340px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.spag2 {
+  background-image: url("img/sofia-ciravegna-khQeenz99H0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 340px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.spag {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10rem;
 }
