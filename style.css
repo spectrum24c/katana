@@ -239,16 +239,16 @@ svg path {
   fill: transparent;
   stroke: #fff;
   stroke-width: 0.5;
-  stroke-dasharray: 990;
-  stroke-dashoffset: 990;
-  animation: stroke-animation 4s ease-in-out 1 forwards;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: stroke-animation 6s ease-in-out 1 forwards;
 }
 
 @keyframes stroke-animation {
   0% {
-    stroke-dashoffset: 990;
+    stroke-dashoffset: 300;
   }
-  90% {
+  10% {
     fill: transparent;
   }
   100% {
