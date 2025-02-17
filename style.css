@@ -86,7 +86,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(#c81913, #b64613, #ab6012);
+  /* background: linear-gradient(#c81913, #b64613, #ab6012); */
+  background: linear-gradient(
+  to right, #c81913, #b64613, #ab6012);
+  background-size: 400% 400%;
+  animation: animate-background 10s infinite ease-in-out;
+}
+
+
+@keyframes animate-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .container {
@@ -140,15 +157,17 @@ input {
   border-radius: 50px;
   background-color: transparent;
   outline: none;
+  color: white;
+  font-size:medium;
+  font-weight: bolder;
 }
-input::placeholder {
+ input::placeholder {
   color: white;
   font-size: large;
   font-weight: bolder;
-}
+} 
 input::active {
   border: none;
-  background-color: red;
 }
 
 button {
