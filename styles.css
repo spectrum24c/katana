@@ -3,7 +3,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(0deg, #c81913, #ab6012, #b64613 80%);
+  background: linear-gradient(to top, #c81913, #ab6012, #b64613);
+  background-size: 400% 400%;
+  animation: animate-background 16s infinite ease-in-out;
 }
 
 .section {

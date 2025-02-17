@@ -81,18 +81,15 @@
 
 body {
   font-family: "Shantell Sans", cursive;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   /* background: linear-gradient(#c81913, #b64613, #ab6012); */
-  background: linear-gradient(
-  to right, #c81913, #b64613, #ab6012);
+  background: linear-gradient(to right, #c81913, #b64613, #ab6012);
   background-size: 400% 400%;
   animation: animate-background 10s infinite ease-in-out;
 }
-
 
 @keyframes animate-background {
   0% {
@@ -158,14 +155,14 @@ input {
   background-color: transparent;
   outline: none;
   color: white;
-  font-size:medium;
+  font-size: medium;
   font-weight: bolder;
 }
- input::placeholder {
+input::placeholder {
   color: white;
   font-size: large;
   font-weight: bolder;
-} 
+}
 input::active {
   border: none;
 }
